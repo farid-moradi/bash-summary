@@ -1,0 +1,537 @@
+Script started on 2022-07-05 21:46:31+04:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="166" LINES="44"]
+[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/tr]1;..nds/basics/tr[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/tr[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004hcclear[?1l>[?2004l
+]2;clear]1;clear[H[2J[3J[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/tr]1;..nds/basics/tr[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/tr[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004heecho /proc[1m/[0m[0m/cpuinfo[1m [0m[0m [?1l>[?2004l
+]2;echo /proc/cpuinfo]1;echo/proc/cpuinfo
+[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/tr]1;..nds/basics/tr[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/tr[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004hccat c  echo /proc/cpuinfo[P[14C [15D[P[14C [15De[P[14C [15D[P[14C [15Dc /proc/cpuinfo[14Dca /proc/cpuinfo[14Dt /proc/cpuinfo[14D[?1l>[?2004l
+]2;cat /proc/cpuinfo]1;catprocessor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i5-2410M CPU @ 2.30GHz
+stepping	: 7
+microcode	: 0x2f
+cpu MHz		: 2205.180
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm epb pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid xsaveopt dtherm ida arat pln pts md_clear flush_l1d
+vmx flags	: vnmi preemption_timer invvpid ept_x_only flexpriority tsc_offset vtpr mtf vapic ept vpid unrestricted_guest
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 4589.88
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i5-2410M CPU @ 2.30GHz
+stepping	: 7
+microcode	: 0x2f
+cpu MHz		: 1310.019
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 2
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm epb pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid xsaveopt dtherm ida arat pln pts md_clear flush_l1d
+vmx flags	: vnmi preemption_timer invvpid ept_x_only flexpriority tsc_offset vtpr mtf vapic ept vpid unrestricted_guest
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 4589.88
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i5-2410M CPU @ 2.30GHz
+stepping	: 7
+microcode	: 0x2f
+cpu MHz		: 1300.000
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 2
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm epb pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid xsaveopt dtherm ida arat pln pts md_clear flush_l1d
+vmx flags	: vnmi preemption_timer invvpid ept_x_only flexpriority tsc_offset vtpr mtf vapic ept vpid unrestricted_guest
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 4589.88
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i5-2410M CPU @ 2.30GHz
+stepping	: 7
+microcode	: 0x2f
+cpu MHz		: 1841.102
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 2
+apicid		: 3
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm epb pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid xsaveopt dtherm ida arat pln pts md_clear flush_l1d
+vmx flags	: vnmi preemption_timer invvpid ept_x_only flexpriority tsc_offset vtpr mtf vapic ept vpid unrestricted_guest
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 4589.88
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/tr]1;..nds/basics/tr[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/tr[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004hcat /proc/cpuinfo[17D[P[16C [17D[P[15C [16D[P[14C [15Dh /proc/cpuinfo[14Dhe /proc/cpuinfo[14Da /proc/cpuinfo[14Dd /proc/cpuinfo[14D[?1l>[?2004l
+]2;head /proc/cpuinfo]1;headprocessor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i5-2410M CPU @ 2.30GHz
+stepping	: 7
+microcode	: 0x2f
+cpu MHz		: 1614.989
+cache size	: 3072 KB
+physical id	: 0
+[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/tr]1;..nds/basics/tr[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/tr[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004hhead /proc/cpuinfo[P[14C [15D[P[14C [15Dh[P[14C [15D[P[14C [15Dt /proc/cpuinfo[14Dta /proc/cpuinfo[14Di /proc/cpuinfo[14Dl /proc/cpuinfo[14D[?1l>[?2004l
+]2;tail /proc/cpuinfo]1;tailwp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm epb pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid xsaveopt dtherm ida arat pln pts md_clear flush_l1d
+vmx flags	: vnmi preemption_timer invvpid ept_x_only flexpriority tsc_offset vtpr mtf vapic ept vpid unrestricted_guest
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 4589.88
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/tr]1;..nds/basics/tr[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/tr[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004htail /proc/cpuinfo[18D                  [18Dtail /proc/cpuinfo[18D[1C[1C[1C[1C[1C /proc/cpuinfo[14D- /proc/cpuinfo[14D[P[14C [15D+ /proc/cpuinfo[14D1 /proc/cpuinfo[14D0 /proc/cpuinfo[14D[?1l>[?2004l
+]2;tail +10 /proc/cpuinfo]1;tailphysical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm epb pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid xsaveopt dtherm ida arat pln pts md_clear flush_l1d
+vmx flags	: vnmi preemption_timer invvpid ept_x_only flexpriority tsc_offset vtpr mtf vapic ept vpid unrestricted_guest
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 4589.88
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i5-2410M CPU @ 2.30GHz
+stepping	: 7
+microcode	: 0x2f
+cpu MHz		: 900.000
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 2
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm epb pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid xsaveopt dtherm ida arat pln pts md_clear flush_l1d
+vmx flags	: vnmi preemption_timer invvpid ept_x_only flexpriority tsc_offset vtpr mtf vapic ept vpid unrestricted_guest
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 4589.88
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i5-2410M CPU @ 2.30GHz
+stepping	: 7
+microcode	: 0x2f
+cpu MHz		: 1164.149
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 2
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm epb pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid xsaveopt dtherm ida arat pln pts md_clear flush_l1d
+vmx flags	: vnmi preemption_timer invvpid ept_x_only flexpriority tsc_offset vtpr mtf vapic ept vpid unrestricted_guest
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 4589.88
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i5-2410M CPU @ 2.30GHz
+stepping	: 7
+microcode	: 0x2f
+cpu MHz		: 1737.522
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 2
+apicid		: 3
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm epb pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid xsaveopt dtherm ida arat pln pts md_clear flush_l1d
+vmx flags	: vnmi preemption_timer invvpid ept_x_only flexpriority tsc_offset vtpr mtf vapic ept vpid unrestricted_guest
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 4589.88
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/tr]1;..nds/basics/tr[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/tr[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004htail +10 /proc/cpuinfo[1C[P[15C [16D40 /proc/cpuinfo[15D[?1l>[?2004l
+]2;tail +40 /proc/cpuinfo]1;tailcore id		: 0
+cpu cores	: 2
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm epb pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid xsaveopt dtherm ida arat pln pts md_clear flush_l1d
+vmx flags	: vnmi preemption_timer invvpid ept_x_only flexpriority tsc_offset vtpr mtf vapic ept vpid unrestricted_guest
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 4589.88
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i5-2410M CPU @ 2.30GHz
+stepping	: 7
+microcode	: 0x2f
+cpu MHz		: 1200.000
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 2
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm epb pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid xsaveopt dtherm ida arat pln pts md_clear flush_l1d
+vmx flags	: vnmi preemption_timer invvpid ept_x_only flexpriority tsc_offset vtpr mtf vapic ept vpid unrestricted_guest
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 4589.88
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i5-2410M CPU @ 2.30GHz
+stepping	: 7
+microcode	: 0x2f
+cpu MHz		: 1236.456
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 2
+apicid		: 3
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm epb pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid xsaveopt dtherm ida arat pln pts md_clear flush_l1d
+vmx flags	: vnmi preemption_timer invvpid ept_x_only flexpriority tsc_offset vtpr mtf vapic ept vpid unrestricted_guest
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 4589.88
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/tr]1;..nds/basics/tr[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/tr[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004htail +40 /proc/cpuinfo[P[15C [16D50 /proc/cpuinfo[15D[?1l>[?2004l
+]2;tail +50 /proc/cpuinfo]1;tailbugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 4589.88
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i5-2410M CPU @ 2.30GHz
+stepping	: 7
+microcode	: 0x2f
+cpu MHz		: 1463.623
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 2
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm epb pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid xsaveopt dtherm ida arat pln pts md_clear flush_l1d
+vmx flags	: vnmi preemption_timer invvpid ept_x_only flexpriority tsc_offset vtpr mtf vapic ept vpid unrestricted_guest
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 4589.88
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i5-2410M CPU @ 2.30GHz
+stepping	: 7
+microcode	: 0x2f
+cpu MHz		: 1310.362
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 2
+apicid		: 3
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm epb pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid xsaveopt dtherm ida arat pln pts md_clear flush_l1d
+vmx flags	: vnmi preemption_timer invvpid ept_x_only flexpriority tsc_offset vtpr mtf vapic ept vpid unrestricted_guest
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 4589.88
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/tr]1;..nds/basics/tr[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/tr[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004htail +50 /proc/cpuinfo[P[15C [16D70 /proc/cpuinfo[15D[?1l>[?2004l
+]2;tail +70 /proc/cpuinfo]1;tailapicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm epb pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid xsaveopt dtherm ida arat pln pts md_clear flush_l1d
+vmx flags	: vnmi preemption_timer invvpid ept_x_only flexpriority tsc_offset vtpr mtf vapic ept vpid unrestricted_guest
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 4589.88
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i5-2410M CPU @ 2.30GHz
+stepping	: 7
+microcode	: 0x2f
+cpu MHz		: 1536.852
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 2
+apicid		: 3
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm epb pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid xsaveopt dtherm ida arat pln pts md_clear flush_l1d
+vmx flags	: vnmi preemption_timer invvpid ept_x_only flexpriority tsc_offset vtpr mtf vapic ept vpid unrestricted_guest
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 4589.88
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/tr]1;..nds/basics/tr[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/tr[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004htail +70 /proc/cpuinfo[P[15C [16D90 /proc/cpuinfo[15D[?1l>[?2004l
+]2;tail +90 /proc/cpuinfo]1;tailstepping	: 7
+microcode	: 0x2f
+cpu MHz		: 1100.000
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 2
+apicid		: 3
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm epb pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid xsaveopt dtherm ida arat pln pts md_clear flush_l1d
+vmx flags	: vnmi preemption_timer invvpid ept_x_only flexpriority tsc_offset vtpr mtf vapic ept vpid unrestricted_guest
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 4589.88
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/tr]1;..nds/basics/tr[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/tr[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004htail +90 /proc/cpuinfo[P[15C [16D10 /proc/cpuinfo[15D[1C0 /proc/cpuinfo[15D[?1l>[?2004l
+]2;tail +100 /proc/cpuinfo]1;tailfpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm epb pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid xsaveopt dtherm ida arat pln pts md_clear flush_l1d
+vmx flags	: vnmi preemption_timer invvpid ept_x_only flexpriority tsc_offset vtpr mtf vapic ept vpid unrestricted_guest
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 4589.88
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/tr]1;..nds/basics/tr[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/tr[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004htail +100 /proc/cpuinfo[23D[P[22C [23D[P[21C [22D[P[20C [21D[P[19C [20D[P[18C [19D[P[17C [18D0[P[15C [17D[P[15C [16D[P[14C [15Dc /proc/cpuinfo[14Dca /proc/cpuinfo[14Dt /proc/cpuinfo[14D[14C | wc -l[?1l>[?2004l
+]2;cat /proc/cpuinfo | wc -l]1;cat112
+[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/tr]1;..nds/basics/tr[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/tr[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004hhhead -20 /proc[1m/[0m[0m/capui    puinfo[1m [0m[0m [?1l>[?2004l
+]2;head -20 /proc/cpuinfo]1;headprocessor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i5-2410M CPU @ 2.30GHz
+stepping	: 7
+microcode	: 0x2f
+cpu MHz		: 1600.000
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm epb pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid xsaveopt dtherm ida arat pln pts md_clear flush_l1d
+[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/tr]1;..nds/basics/tr[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/tr[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004hhead -20 /proc/cpuinfo | tr a-z A_ -Z[?1l>[?2004l
+]2;head -20 /proc/cpuinfo | tr a-z A-Z]1;headPROCESSOR	: 0
+VENDOR_ID	: GENUINEINTEL
+CPU FAMILY	: 6
+MODEL		: 42
+MODEL NAME	: INTEL(R) CORE(TM) I5-2410M CPU @ 2.30GHZ
+STEPPING	: 7
+MICROCODE	: 0X2F
+CPU MHZ		: 1600.000
+CACHE SIZE	: 3072 KB
+PHYSICAL ID	: 0
+SIBLINGS	: 4
+CORE ID		: 0
+CPU CORES	: 2
+APICID		: 0
+INITIAL APICID	: 0
+FPU		: YES
+FPU_EXCEPTION	: YES
+CPUID LEVEL	: 13
+WP		: YES
+FLAGS		: FPU VME DE PSE TSC MSR PAE MCE CX8 APIC SEP MTRR PGE MCA CMOV PAT PSE36 CLFLUSH DTS ACPI MMX FXSR SSE SSE2 HT TM PBE SYSCALL NX RDTSCP LM CONSTANT_TSC ARCH_PERFMON PEBS BTS REP_GOOD NOPL XTOPOLOGY NONSTOP_TSC CPUID APERFMPERF PNI PCLMULQDQ DTES64 MONITOR DS_CPL VMX EST TM2 SSSE3 CX16 XTPR PDCM PCID SSE4_1 SSE4_2 X2APIC POPCNT TSC_DEADLINE_TIMER AES XSAVE AVX LAHF_LM EPB PTI SSBD IBRS IBPB STIBP TPR_SHADOW VNMI FLEXPRIORITY EPT VPID XSAVEOPT DTHERM IDA ARAT PLN PTS MD_CLEAR FLUSH_L1D
+[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/tr]1;..nds/basics/tr[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/tr[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004hhead -20 /proc/cpuinfo | tr a-z A-Z[1C   [1C[P[24C [25D[P[24C [25D5 /proc/cpuinfo | tr a-z [24D[24C      [?1l>[?2004l
+]2;head -5 /proc/cpuinfo]1;headprocessor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i5-2410M CPU @ 2.30GHz
+[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/tr]1;..nds/basics/tr[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/tr[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004hhead -5 /proc/cpuinfo | tr a-z ggg[?1l>[?2004l
+]2;head -5 /proc/cpuinfo | tr a-z ggg]1;headggggggggg	: 0
+gggggg_gg	: GggggggIgggg
+ggg gggggg	: 6
+ggggg		: 42
+ggggg gggg	: Igggg(R) Cggg(TM) g5-2410M CPU @ 2.30GHg
+[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/tr]1;..nds/basics/tr[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/tr[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004hhead -5 /proc/cpuinfo | tr a-z gggA[2Cg-[2CgZ[2Cg [2Cg[?1l>[?2004l
+]2;head -5 /proc/cpuinfo | tr a-z A-Z ggg]1;headtr: extra operand ‘ggg’
+Try 'tr --help' for more information.
+[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/tr]1;..nds/basics/tr[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/tr[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;241;24;76m[38;2;36;36;36m[0m[48;2;241;24;76m[38;2;36;36;36m [0m[48;2;241;24;76m[38;2;36;36;36mﲍ[0m[48;2;241;24;76m[38;2;36;36;36m [0m[38;2;241;24;76m[0m[0m [K[?1h=[?2004hhead -5 /proc/cpuinfo | tr a-z A-Z ggg g[2C  g[2C  g[2C g[2C [?1l>[?2004l
+]2;head -5 /proc/cpuinfo | tr a-z ggg]1;headggggggggg	: 0
+gggggg_gg	: GggggggIgggg
+ggg gggggg	: 6
+ggggg		: 42
+ggggg gggg	: Igggg(R) Cggg(TM) g5-2410M CPU @ 2.30GHg
+[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/tr]1;..nds/basics/tr[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/tr[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004hhead -5 /proc/cpuinfo | tr a-z ggg[1C   1[?1l>[?2004l
+]2;head -5 /proc/cpuinfo | tr a-z 1]1;head111111111	: 0
+111111_11	: G111111I1111
+111 111111	: 6
+11111		: 42
+11111 1111	: I1111(R) C111(TM) 15-2410M CPU @ 2.30GH1
+[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/tr]1;..nds/basics/tr[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/tr[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Script done on 2022-07-05 21:49:39+04:30 [COMMAND_EXIT_CODE="0"]

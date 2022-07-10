@@ -1,0 +1,544 @@
+Script started on 2022-07-05 22:09:22+04:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="166" LINES="44"]
+[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/archiving/targz]1;..chiving/targz[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/archiving/targz[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004hcclear[?1l>[?2004l
+]2;clear]1;clear[H[2J[3J[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/archiving/targz]1;..chiving/targz[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/archiving/targz[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls --color=tty]1;ls[0m[01;32mfile.tar.gz[0m  typescript
+[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/archiving/targz]1;..chiving/targz[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/archiving/targz[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004hggunzip[1m [0m[0m file.tar.gz[1m [0m[0m [?1l>[?2004l
+]2;gunzip file.tar.gz]1;gunzip[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/archiving/targz]1;..chiving/targz[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/archiving/targz[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls --color=tty]1;ls[0m[01;32mfile.tar[0m  typescript
+[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/archiving/targz]1;..chiving/targz[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/archiving/targz[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004httar xvf fil      tx vf file.tar[1m [0m[0m [?1l>[?2004l
+]2;tar tvf file.tar]1;tardrwxr-xr-x 12041/12005       0 1991-09-17 18:23 linux/
+-rw-r--r-- 12041/12005    2186 1991-09-17 18:23 linux/Makefile
+drwxr-xr-x 12041/12005       0 1991-09-17 19:57 linux/boot/
+-rw-r--r-- 12041/12005    7851 1991-09-13 01:40 linux/boot/boot.s
+-rw-r--r-- 12041/12005    4678 1991-09-12 02:40 linux/boot/head.s
+drwxr-xr-x 12041/12005       0 1991-09-17 19:52 linux/fs/
+-rw-r--r-- 12041/12005    1134 1991-09-12 01:05 linux/fs/stat.c
+-rw-r--r-- 12041/12005    4735 1991-09-17 19:44 linux/fs/Makefile
+-rw-r--r-- 12041/12005    2693 1991-09-13 22:23 linux/fs/read_write.c
+-rw-r--r-- 12041/12005    6162 1991-09-17 19:35 linux/fs/buffer.c
+-rw-r--r-- 12041/12005    5917 1991-09-09 22:36 linux/fs/inode.c
+-rw-r--r-- 12041/12005      56 1991-08-19 02:27 linux/fs/file_table.c
+-rw-r--r-- 12041/12005    3846 1991-09-08 18:44 linux/fs/open.c
+-rw-r--r-- 12041/12005    1269 1991-09-08 18:03 linux/fs/char_dev.c
+-rw-r--r-- 12041/12005    1786 1991-09-14 00:08 linux/fs/block_dev.c
+-rw-r--r-- 12041/12005    1788 1991-08-30 19:47 linux/fs/file_dev.c
+-rw-r--r-- 12041/12005    7535 1991-09-13 18:54 linux/fs/exec.c
+-rw-r--r-- 12041/12005    2421 1991-09-17 19:35 linux/fs/super.c
+-rw-r--r-- 12041/12005   14493 1991-09-13 00:02 linux/fs/namei.c
+-rw-r--r-- 12041/12005    1973 1991-09-13 22:56 linux/fs/pipe.c
+-rw-r--r-- 12041/12005    3884 1991-09-09 22:32 linux/fs/bitmap.c
+-rw-r--r-- 12041/12005    1394 1991-08-30 18:36 linux/fs/fcntl.c
+-rw-r--r-- 12041/12005     935 1991-08-30 18:36 linux/fs/ioctl.c
+-rw-r--r-- 12041/12005    4186 1991-09-08 18:45 linux/fs/tty_ioctl.c
+-rw-r--r-- 12041/12005    1084 1991-09-07 21:45 linux/fs/truncate.c
+drwxr-xr-x 12041/12005       0 1991-09-17 19:48 linux/init/
+-rw-r--r-- 12041/12005    3601 1991-09-13 01:33 linux/init/main.c
+drwxr-xr-x 12041/12005       0 1991-09-17 21:00 linux/kernel/
+-rw-r--r-- 12041/12005    3843 1991-09-17 19:45 linux/kernel/Makefile
+-rw-r--r-- 12041/12005    5155 1991-09-17 17:58 linux/kernel/sched.c
+-rw-r--r-- 12041/12005    4800 1991-09-17 20:20 linux/kernel/system_call.s
+-rw-r--r-- 12041/12005    9524 1991-09-07 20:16 linux/kernel/console.c
+-rw-r--r-- 12041/12005    9734 1991-09-17 19:35 linux/kernel/hd.c
+-rw-r--r-- 12041/12005    2915 1991-09-17 20:25 linux/kernel/exit.c
+-rw-r--r-- 12041/12005     222 1991-08-19 02:36 linux/kernel/panic.c
+-rw-r--r-- 12041/12005    4771 1991-09-17 17:57 linux/kernel/traps.c
+-rw-r--r-- 12041/12005    2665 1991-07-09 03:59 linux/kernel/asm.s
+-rw-r--r-- 12041/12005    3477 1991-09-17 17:00 linux/kernel/fork.c
+-rw-r--r-- 12041/12005    6749 1991-09-17 20:22 linux/kernel/tty_io.c
+-rw-r--r-- 12041/12005     602 1991-09-17 19:38 linux/kernel/printk.c
+-rw-r--r-- 12041/12005    3298 1991-09-17 17:02 linux/kernel/sys.c
+-rw-r--r-- 12041/12005    1340 1991-08-19 02:36 linux/kernel/serial.c
+-rw-r--r-- 12041/12005    9497 1991-08-30 01:44 linux/kernel/keyboard.s
+-rw-r--r-- 12041/12005    2653 1991-09-17 20:59 linux/kernel/rs_io.s
+-rw-r--r-- 12041/12005    4732 1991-08-11 22:29 linux/kernel/vsprintf.c
+-rw-r--r-- 12041/12005    1395 1991-08-30 16:39 linux/kernel/mktime.c
+drwxr-xr-x 12041/12005       0 1991-09-17 19:59 linux/lib/
+-rw-r--r-- 12041/12005     992 1991-09-17 19:59 linux/lib/Makefile
+-rw-r--r-- 12041/12005    1140 1991-09-17 19:47 linux/lib/ctype.c
+-rw-r--r-- 12041/12005     136 1991-09-17 19:53 linux/lib/_exit.c
+-rw-r--r-- 12041/12005     328 1991-09-17 19:54 linux/lib/open.c
+-rw-r--r-- 12041/12005      69 1991-09-17 19:54 linux/lib/close.c
+-rw-r--r-- 12041/12005      11 1991-09-17 19:54 linux/lib/errno.c
+-rw-r--r-- 12041/12005      98 1991-09-17 19:55 linux/lib/write.c
+-rw-r--r-- 12041/12005     107 1991-09-17 19:55 linux/lib/execve.c
+-rw-r--r-- 12041/12005      67 1991-09-17 19:56 linux/lib/dup.c
+-rw-r--r-- 12041/12005     192 1991-09-17 19:56 linux/lib/wait.c
+-rw-r--r-- 12041/12005      65 1991-09-17 19:56 linux/lib/setsid.c
+-rw-r--r-- 12041/12005     114 1991-09-17 19:58 linux/lib/string.c
+drwxr-xr-x 12041/12005       0 1991-09-17 19:50 linux/mm/
+-rw-r--r-- 12041/12005     770 1991-09-17 19:45 linux/mm/Makefile
+-rw-r--r-- 12041/12005     448 1991-06-29 23:20 linux/mm/page.s
+-rw-r--r-- 12041/12005    7048 1991-09-17 19:37 linux/mm/memory.c
+drwxr-xr-x 12041/12005       0 1991-09-17 21:00 linux/tools/
+-rw-r--r-- 12041/12005    1710 1991-07-02 21:50 linux/tools/build.c
+drwxr-xr-x 12041/12005       0 1991-09-17 19:42 linux/include/
+drwxr-xr-x 12041/12005       0 1991-09-17 19:36 linux/include/sys/
+-rw-r--r-- 12041/12005    1304 1991-09-17 19:32 linux/include/sys/stat.h
+-rw-r--r-- 12041/12005     805 1991-09-17 19:32 linux/include/sys/types.h
+-rw-r--r-- 12041/12005     200 1991-09-17 19:33 linux/include/sys/times.h
+-rw-r--r-- 12041/12005     234 1991-09-17 19:33 linux/include/sys/utsname.h
+-rw-r--r-- 12041/12005     560 1991-09-17 19:36 linux/include/sys/wait.h
+-rw-r--r-- 12041/12005    6207 1991-09-17 19:42 linux/include/unistd.h
+-rw-r--r-- 12041/12005     734 1991-09-17 19:32 linux/include/time.h
+-rw-r--r-- 12041/12005    5214 1991-09-17 19:32 linux/include/termios.h
+-rw-r--r-- 12041/12005     286 1991-09-17 19:32 linux/include/stddef.h
+-rwxr-xr-x 12041/12005     780 1991-09-17 19:32 linux/include/stdarg.h
+-rw-r--r-- 12041/12005    1374 1991-09-17 19:42 linux/include/fcntl.h
+-rw-r--r-- 12041/12005     225 1991-09-17 19:33 linux/include/utime.h
+-rw-r--r-- 12041/12005    7881 1991-09-17 19:34 linux/include/string.h
+-rw-r--r-- 12041/12005    1268 1991-09-17 19:34 linux/include/errno.h
+-rw-r--r-- 12041/12005    1675 1991-09-17 19:34 linux/include/signal.h
+-rw-r--r-- 12041/12005     321 1991-09-17 19:42 linux/include/const.h
+-rw-r--r-- 12041/12005    6047 1991-09-17 19:40 linux/include/a.out.h
+-rw-r--r-- 12041/12005    1049 1991-09-17 19:38 linux/include/ctype.h
+drwxr-xr-x 12041/12005       0 1991-09-17 19:29 linux/include/linux/
+-rw-r--r-- 12041/12005    2712 1991-07-11 01:14 linux/include/linux/hdreg.h
+-rw-r--r-- 12041/12005     269 1991-07-10 00:00 linux/include/linux/kernel.h
+-rw-r--r-- 12041/12005    5686 1991-09-17 18:00 linux/include/linux/sched.h
+-rw-r--r-- 12041/12005    2380 1991-09-08 17:05 linux/include/linux/sys.h
+-rw-r--r-- 12041/12005    2014 1991-09-08 20:06 linux/include/linux/tty.h
+-rw-r--r-- 12041/12005    4770 1991-09-12 00:41 linux/include/linux/fs.h
+-rw-r--r-- 12041/12005     219 1991-07-29 22:21 linux/include/linux/mm.h
+-rw-r--r-- 12041/12005     304 1991-06-19 23:54 linux/include/linux/head.h
+-rw-r--r-- 12041/12005    1360 1991-09-17 19:29 linux/include/linux/config.h
+drwxr-xr-x 12041/12005       0 1991-09-17 17:38 linux/include/asm/
+-rw-r--r-- 12041/12005     477 1991-08-07 14:47 linux/include/asm/io.h
+-rw-r--r-- 12041/12005     507 1991-06-16 01:24 linux/include/asm/memory.h
+-rw-r--r-- 12041/12005    1711 1991-09-17 17:38 linux/include/asm/system.h
+-rw-r--r-- 12041/12005     822 1991-08-19 01:44 linux/include/asm/segment.h
+[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/archiving/targz]1;..chiving/targz[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/archiving/targz[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004htar tvf file.tar | h less[?1l>[?2004l
+]2;tar tvf file.tar | less]1;tar[?1049h[22;0;0t[?1h=drwxr-xr-x 12041/12005       0 1991-09-17 18:23 linux/[m
+-rw-r--r-- 12041/12005    2186 1991-09-17 18:23 linux/Makefile[m
+drwxr-xr-x 12041/12005       0 1991-09-17 19:57 linux/boot/[m
+-rw-r--r-- 12041/12005    7851 1991-09-13 01:40 linux/boot/boot.s[m
+-rw-r--r-- 12041/12005    4678 1991-09-12 02:40 linux/boot/head.s[m
+drwxr-xr-x 12041/12005       0 1991-09-17 19:52 linux/fs/[m
+-rw-r--r-- 12041/12005    1134 1991-09-12 01:05 linux/fs/stat.c[m
+-rw-r--r-- 12041/12005    4735 1991-09-17 19:44 linux/fs/Makefile[m
+-rw-r--r-- 12041/12005    2693 1991-09-13 22:23 linux/fs/read_write.c[m
+-rw-r--r-- 12041/12005    6162 1991-09-17 19:35 linux/fs/buffer.c[m
+-rw-r--r-- 12041/12005    5917 1991-09-09 22:36 linux/fs/inode.c[m
+-rw-r--r-- 12041/12005      56 1991-08-19 02:27 linux/fs/file_table.c[m
+-rw-r--r-- 12041/12005    3846 1991-09-08 18:44 linux/fs/open.c[m
+-rw-r--r-- 12041/12005    1269 1991-09-08 18:03 linux/fs/char_dev.c[m
+-rw-r--r-- 12041/12005    1786 1991-09-14 00:08 linux/fs/block_dev.c[m
+-rw-r--r-- 12041/12005    1788 1991-08-30 19:47 linux/fs/file_dev.c[m
+-rw-r--r-- 12041/12005    7535 1991-09-13 18:54 linux/fs/exec.c[m
+-rw-r--r-- 12041/12005    2421 1991-09-17 19:35 linux/fs/super.c[m
+-rw-r--r-- 12041/12005   14493 1991-09-13 00:02 linux/fs/namei.c[m
+-rw-r--r-- 12041/12005    1973 1991-09-13 22:56 linux/fs/pipe.c[m
+-rw-r--r-- 12041/12005    3884 1991-09-09 22:32 linux/fs/bitmap.c[m
+-rw-r--r-- 12041/12005    1394 1991-08-30 18:36 linux/fs/fcntl.c[m
+-rw-r--r-- 12041/12005     935 1991-08-30 18:36 linux/fs/ioctl.c[m
+-rw-r--r-- 12041/12005    4186 1991-09-08 18:45 linux/fs/tty_ioctl.c[m
+-rw-r--r-- 12041/12005    1084 1991-09-07 21:45 linux/fs/truncate.c[m
+drwxr-xr-x 12041/12005       0 1991-09-17 19:48 linux/init/[m
+-rw-r--r-- 12041/12005    3601 1991-09-13 01:33 linux/init/main.c[m
+drwxr-xr-x 12041/12005       0 1991-09-17 21:00 linux/kernel/[m
+-rw-r--r-- 12041/12005    3843 1991-09-17 19:45 linux/kernel/Makefile[m
+-rw-r--r-- 12041/12005    5155 1991-09-17 17:58 linux/kernel/sched.c[m
+-rw-r--r-- 12041/12005    4800 1991-09-17 20:20 linux/kernel/system_call.s[m
+-rw-r--r-- 12041/12005    9524 1991-09-07 20:16 linux/kernel/console.c[m
+-rw-r--r-- 12041/12005    9734 1991-09-17 19:35 linux/kernel/hd.c[m
+-rw-r--r-- 12041/12005    2915 1991-09-17 20:25 linux/kernel/exit.c[m
+-rw-r--r-- 12041/12005     222 1991-08-19 02:36 linux/kernel/panic.c[m
+-rw-r--r-- 12041/12005    4771 1991-09-17 17:57 linux/kernel/traps.c[m
+-rw-r--r-- 12041/12005    2665 1991-07-09 03:59 linux/kernel/asm.s[m
+-rw-r--r-- 12041/12005    3477 1991-09-17 17:00 linux/kernel/fork.c[m
+-rw-r--r-- 12041/12005    6749 1991-09-17 20:22 linux/kernel/tty_io.c[m
+-rw-r--r-- 12041/12005     602 1991-09-17 19:38 linux/kernel/printk.c[m
+-rw-r--r-- 12041/12005    3298 1991-09-17 17:02 linux/kernel/sys.c[m
+-rw-r--r-- 12041/12005    1340 1991-08-19 02:36 linux/kernel/serial.c[m
+-rw-r--r-- 12041/12005    9497 1991-08-30 01:44 linux/kernel/keyboard.s[m
+:[K[K-rw-r--r-- 12041/12005    2653 1991-09-17 20:59 linux/kernel/rs_io.s[m
+-rw-r--r-- 12041/12005    4732 1991-08-11 22:29 linux/kernel/vsprintf.c[m
+-rw-r--r-- 12041/12005    1395 1991-08-30 16:39 linux/kernel/mktime.c[m
+drwxr-xr-x 12041/12005       0 1991-09-17 19:59 linux/lib/[m
+-rw-r--r-- 12041/12005     992 1991-09-17 19:59 linux/lib/Makefile[m
+-rw-r--r-- 12041/12005    1140 1991-09-17 19:47 linux/lib/ctype.c[m
+-rw-r--r-- 12041/12005     136 1991-09-17 19:53 linux/lib/_exit.c[m
+-rw-r--r-- 12041/12005     328 1991-09-17 19:54 linux/lib/open.c[m
+-rw-r--r-- 12041/12005      69 1991-09-17 19:54 linux/lib/close.c[m
+-rw-r--r-- 12041/12005      11 1991-09-17 19:54 linux/lib/errno.c[m
+-rw-r--r-- 12041/12005      98 1991-09-17 19:55 linux/lib/write.c[m
+-rw-r--r-- 12041/12005     107 1991-09-17 19:55 linux/lib/execve.c[m
+-rw-r--r-- 12041/12005      67 1991-09-17 19:56 linux/lib/dup.c[m
+-rw-r--r-- 12041/12005     192 1991-09-17 19:56 linux/lib/wait.c[m
+-rw-r--r-- 12041/12005      65 1991-09-17 19:56 linux/lib/setsid.c[m
+-rw-r--r-- 12041/12005     114 1991-09-17 19:58 linux/lib/string.c[m
+drwxr-xr-x 12041/12005       0 1991-09-17 19:50 linux/mm/[m
+-rw-r--r-- 12041/12005     770 1991-09-17 19:45 linux/mm/Makefile[m
+-rw-r--r-- 12041/12005     448 1991-06-29 23:20 linux/mm/page.s[m
+-rw-r--r-- 12041/12005    7048 1991-09-17 19:37 linux/mm/memory.c[m
+drwxr-xr-x 12041/12005       0 1991-09-17 21:00 linux/tools/[m
+-rw-r--r-- 12041/12005    1710 1991-07-02 21:50 linux/tools/build.c[m
+drwxr-xr-x 12041/12005       0 1991-09-17 19:42 linux/include/[m
+drwxr-xr-x 12041/12005       0 1991-09-17 19:36 linux/include/sys/[m
+-rw-r--r-- 12041/12005    1304 1991-09-17 19:32 linux/include/sys/stat.h[m
+-rw-r--r-- 12041/12005     805 1991-09-17 19:32 linux/include/sys/types.h[m
+-rw-r--r-- 12041/12005     200 1991-09-17 19:33 linux/include/sys/times.h[m
+-rw-r--r-- 12041/12005     234 1991-09-17 19:33 linux/include/sys/utsname.h[m
+-rw-r--r-- 12041/12005     560 1991-09-17 19:36 linux/include/sys/wait.h[m
+-rw-r--r-- 12041/12005    6207 1991-09-17 19:42 linux/include/unistd.h[m
+-rw-r--r-- 12041/12005     734 1991-09-17 19:32 linux/include/time.h[m
+-rw-r--r-- 12041/12005    5214 1991-09-17 19:32 linux/include/termios.h[m
+-rw-r--r-- 12041/12005     286 1991-09-17 19:32 linux/include/stddef.h[m
+-rwxr-xr-x 12041/12005     780 1991-09-17 19:32 linux/include/stdarg.h[m
+-rw-r--r-- 12041/12005    1374 1991-09-17 19:42 linux/include/fcntl.h[m
+-rw-r--r-- 12041/12005     225 1991-09-17 19:33 linux/include/utime.h[m
+-rw-r--r-- 12041/12005    7881 1991-09-17 19:34 linux/include/string.h[m
+-rw-r--r-- 12041/12005    1268 1991-09-17 19:34 linux/include/errno.h[m
+-rw-r--r-- 12041/12005    1675 1991-09-17 19:34 linux/include/signal.h[m
+-rw-r--r-- 12041/12005     321 1991-09-17 19:42 linux/include/const.h[m
+-rw-r--r-- 12041/12005    6047 1991-09-17 19:40 linux/include/a.out.h[m
+-rw-r--r-- 12041/12005    1049 1991-09-17 19:38 linux/include/ctype.h[m
+drwxr-xr-x 12041/12005       0 1991-09-17 19:29 linux/include/linux/[m
+:[K[K-rw-r--r-- 12041/12005    2712 1991-07-11 01:14 linux/include/linux/hdreg.h[m
+-rw-r--r-- 12041/12005     269 1991-07-10 00:00 linux/include/linux/kernel.h[m
+-rw-r--r-- 12041/12005    5686 1991-09-17 18:00 linux/include/linux/sched.h[m
+-rw-r--r-- 12041/12005    2380 1991-09-08 17:05 linux/include/linux/sys.h[m
+-rw-r--r-- 12041/12005    2014 1991-09-08 20:06 linux/include/linux/tty.h[m
+-rw-r--r-- 12041/12005    4770 1991-09-12 00:41 linux/include/linux/fs.h[m
+-rw-r--r-- 12041/12005     219 1991-07-29 22:21 linux/include/linux/mm.h[m
+-rw-r--r-- 12041/12005     304 1991-06-19 23:54 linux/include/linux/head.h[m
+-rw-r--r-- 12041/12005    1360 1991-09-17 19:29 linux/include/linux/config.h[m
+drwxr-xr-x 12041/12005       0 1991-09-17 17:38 linux/include/asm/[m
+-rw-r--r-- 12041/12005     477 1991-08-07 14:47 linux/include/asm/io.h[m
+-rw-r--r-- 12041/12005     507 1991-06-16 01:24 linux/include/asm/memory.h[m
+-rw-r--r-- 12041/12005    1711 1991-09-17 17:38 linux/include/asm/system.h[m
+-rw-r--r-- 12041/12005     822 1991-08-19 01:44 linux/include/asm/segment.h[m
+[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/archiving/targz]1;..chiving/targz[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/archiving/targz[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004httar xvf file.tar[1m [0m[0m [?1l>[?2004l
+]2;tar xvf file.tar]1;tarlinux/
+linux/Makefile
+linux/boot/
+linux/boot/boot.s
+linux/boot/head.s
+linux/fs/
+linux/fs/stat.c
+linux/fs/Makefile
+linux/fs/read_write.c
+linux/fs/buffer.c
+linux/fs/inode.c
+linux/fs/file_table.c
+linux/fs/open.c
+linux/fs/char_dev.c
+linux/fs/block_dev.c
+linux/fs/file_dev.c
+linux/fs/exec.c
+linux/fs/super.c
+linux/fs/namei.c
+linux/fs/pipe.c
+linux/fs/bitmap.c
+linux/fs/fcntl.c
+linux/fs/ioctl.c
+linux/fs/tty_ioctl.c
+linux/fs/truncate.c
+linux/init/
+linux/init/main.c
+linux/kernel/
+linux/kernel/Makefile
+linux/kernel/sched.c
+linux/kernel/system_call.s
+linux/kernel/console.c
+linux/kernel/hd.c
+linux/kernel/exit.c
+linux/kernel/panic.c
+linux/kernel/traps.c
+linux/kernel/asm.s
+linux/kernel/fork.c
+linux/kernel/tty_io.c
+linux/kernel/printk.c
+linux/kernel/sys.c
+linux/kernel/serial.c
+linux/kernel/keyboard.s
+linux/kernel/rs_io.s
+linux/kernel/vsprintf.c
+linux/kernel/mktime.c
+linux/lib/
+linux/lib/Makefile
+linux/lib/ctype.c
+linux/lib/_exit.c
+linux/lib/open.c
+linux/lib/close.c
+linux/lib/errno.c
+linux/lib/write.c
+linux/lib/execve.c
+linux/lib/dup.c
+linux/lib/wait.c
+linux/lib/setsid.c
+linux/lib/string.c
+linux/mm/
+linux/mm/Makefile
+linux/mm/page.s
+linux/mm/memory.c
+linux/tools/
+linux/tools/build.c
+linux/include/
+linux/include/sys/
+linux/include/sys/stat.h
+linux/include/sys/types.h
+linux/include/sys/times.h
+linux/include/sys/utsname.h
+linux/include/sys/wait.h
+linux/include/unistd.h
+linux/include/time.h
+linux/include/termios.h
+linux/include/stddef.h
+linux/include/stdarg.h
+linux/include/fcntl.h
+linux/include/utime.h
+linux/include/string.h
+linux/include/errno.h
+linux/include/signal.h
+linux/include/const.h
+linux/include/a.out.h
+linux/include/ctype.h
+linux/include/linux/
+linux/include/linux/hdreg.h
+linux/include/linux/kernel.h
+linux/include/linux/sched.h
+linux/include/linux/sys.h
+linux/include/linux/tty.h
+linux/include/linux/fs.h
+linux/include/linux/mm.h
+linux/include/linux/head.h
+linux/include/linux/config.h
+linux/include/asm/
+linux/include/asm/io.h
+linux/include/asm/memory.h
+linux/include/asm/system.h
+linux/include/asm/segment.h
+[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/archiving/targz]1;..chiving/targz[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/archiving/targz[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls --color=tty]1;ls[0m[01;32mfile.tar[0m  [01;34mlinux[0m  typescript
+[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/archiving/targz]1;..chiving/targz[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/archiving/targz[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004hggzip[1m [0m[0m file.tar[1m [0m[0m [?1l>[?2004l
+]2;gzip file.tar]1;gzip[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/archiving/targz]1;..chiving/targz[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/archiving/targz[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls --color=tty]1;ls[0m[01;32mfile.tar.gz[0m  [01;34mlinux[0m  typescript
+[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/archiving/targz]1;..chiving/targz[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/archiving/targz[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004hrrm -r linux[1m/[0m[0m [?1l>[?2004l
+]2;rm -r linux]1;rm[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/archiving/targz]1;..chiving/targz[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/archiving/targz[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls --color=tty]1;ls[0m[01;32mfile.tar.gz[0m  typescript
+[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/archiving/targz]1;..chiving/targz[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/archiving/targz[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004hggun
+[J[0mgunignore  [Jgunwip     [Jgunzip   [J[A[0m[27m[24m[66Cgun[Kzip[1m [0m[0m -dc file.tar.gz[1m [0m[0m | tar xvf -[?1l>[?2004l
+[J]2;gunzip -dc file.tar.gz | tar xvf -]1;gunziplinux/
+linux/Makefile
+linux/boot/
+linux/boot/boot.s
+linux/boot/head.s
+linux/fs/
+linux/fs/stat.c
+linux/fs/Makefile
+linux/fs/read_write.c
+linux/fs/buffer.c
+linux/fs/inode.c
+linux/fs/file_table.c
+linux/fs/open.c
+linux/fs/char_dev.c
+linux/fs/block_dev.c
+linux/fs/file_dev.c
+linux/fs/exec.c
+linux/fs/super.c
+linux/fs/namei.c
+linux/fs/pipe.c
+linux/fs/bitmap.c
+linux/fs/fcntl.c
+linux/fs/ioctl.c
+linux/fs/tty_ioctl.c
+linux/fs/truncate.c
+linux/init/
+linux/init/main.c
+linux/kernel/
+linux/kernel/Makefile
+linux/kernel/sched.c
+linux/kernel/system_call.s
+linux/kernel/console.c
+linux/kernel/hd.c
+linux/kernel/exit.c
+linux/kernel/panic.c
+linux/kernel/traps.c
+linux/kernel/asm.s
+linux/kernel/fork.c
+linux/kernel/tty_io.c
+linux/kernel/printk.c
+linux/kernel/sys.c
+linux/kernel/serial.c
+linux/kernel/keyboard.s
+linux/kernel/rs_io.s
+linux/kernel/vsprintf.c
+linux/kernel/mktime.c
+linux/lib/
+linux/lib/Makefile
+linux/lib/ctype.c
+linux/lib/_exit.c
+linux/lib/open.c
+linux/lib/close.c
+linux/lib/errno.c
+linux/lib/write.c
+linux/lib/execve.c
+linux/lib/dup.c
+linux/lib/wait.c
+linux/lib/setsid.c
+linux/lib/string.c
+linux/mm/
+linux/mm/Makefile
+linux/mm/page.s
+linux/mm/memory.c
+linux/tools/
+linux/tools/build.c
+linux/include/
+linux/include/sys/
+linux/include/sys/stat.h
+linux/include/sys/types.h
+linux/include/sys/times.h
+linux/include/sys/utsname.h
+linux/include/sys/wait.h
+linux/include/unistd.h
+linux/include/time.h
+linux/include/termios.h
+linux/include/stddef.h
+linux/include/stdarg.h
+linux/include/fcntl.h
+linux/include/utime.h
+linux/include/string.h
+linux/include/errno.h
+linux/include/signal.h
+linux/include/const.h
+linux/include/a.out.h
+linux/include/ctype.h
+linux/include/linux/
+linux/include/linux/hdreg.h
+linux/include/linux/kernel.h
+linux/include/linux/sched.h
+linux/include/linux/sys.h
+linux/include/linux/tty.h
+linux/include/linux/fs.h
+linux/include/linux/mm.h
+linux/include/linux/head.h
+linux/include/linux/config.h
+linux/include/asm/
+linux/include/asm/io.h
+linux/include/asm/memory.h
+linux/include/asm/system.h
+linux/include/asm/segment.h
+[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/archiving/targz]1;..chiving/targz[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/archiving/targz[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls --color=tty]1;ls[0m[01;32mfile.tar.gz[0m  [01;34mlinux[0m  typescript
+[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/archiving/targz]1;..chiving/targz[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/archiving/targz[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004hrrm -r linux[1m/[0m[0m [?1l>[?2004l
+]2;rm -r linux]1;rm[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/archiving/targz]1;..chiving/targz[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/archiving/targz[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004heecho -[?1l>[?2004l
+]2;echo -]1;echo
+[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/archiving/targz]1;..chiving/targz[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/archiving/targz[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004heecho $$[?1l>[?2004l
+]2;echo $$]1;echo51443
+[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/archiving/targz]1;..chiving/targz[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/archiving/targz[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004heecho $-[?1l>[?2004l
+]2;echo $-]1;echo569JNRXZghikms
+[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/archiving/targz]1;..chiving/targz[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/archiving/targz[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004heecho "farid"[?1l>[?2004l
+]2;echo "farid"]1;echofarid
+[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/archiving/targz]1;..chiving/targz[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/archiving/targz[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004heecho $[ -[?1l>[?2004l
+]2;echo $-]1;echo569JNRXZghikms
+[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/archiving/targz]1;..chiving/targz[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/archiving/targz[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004heecho "farid" | echo -[?1l>[?2004l
+]2;echo "farid" | echo -]1;echo
+[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/archiving/targz]1;..chiving/targz[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/archiving/targz[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls --color=tty]1;ls[0m[01;32mfile.tar.gz[0m  typescript
+[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/archiving/targz]1;..chiving/targz[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/archiving/targz[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004httar zxvf file.tar.gz[1m [0m[0m [?1l>[?2004l
+]2;tar zxvf file.tar.gz]1;tarlinux/
+linux/Makefile
+linux/boot/
+linux/boot/boot.s
+linux/boot/head.s
+linux/fs/
+linux/fs/stat.c
+linux/fs/Makefile
+linux/fs/read_write.c
+linux/fs/buffer.c
+linux/fs/inode.c
+linux/fs/file_table.c
+linux/fs/open.c
+linux/fs/char_dev.c
+linux/fs/block_dev.c
+linux/fs/file_dev.c
+linux/fs/exec.c
+linux/fs/super.c
+linux/fs/namei.c
+linux/fs/pipe.c
+linux/fs/bitmap.c
+linux/fs/fcntl.c
+linux/fs/ioctl.c
+linux/fs/tty_ioctl.c
+linux/fs/truncate.c
+linux/init/
+linux/init/main.c
+linux/kernel/
+linux/kernel/Makefile
+linux/kernel/sched.c
+linux/kernel/system_call.s
+linux/kernel/console.c
+linux/kernel/hd.c
+linux/kernel/exit.c
+linux/kernel/panic.c
+linux/kernel/traps.c
+linux/kernel/asm.s
+linux/kernel/fork.c
+linux/kernel/tty_io.c
+linux/kernel/printk.c
+linux/kernel/sys.c
+linux/kernel/serial.c
+linux/kernel/keyboard.s
+linux/kernel/rs_io.s
+linux/kernel/vsprintf.c
+linux/kernel/mktime.c
+linux/lib/
+linux/lib/Makefile
+linux/lib/ctype.c
+linux/lib/_exit.c
+linux/lib/open.c
+linux/lib/close.c
+linux/lib/errno.c
+linux/lib/write.c
+linux/lib/execve.c
+linux/lib/dup.c
+linux/lib/wait.c
+linux/lib/setsid.c
+linux/lib/string.c
+linux/mm/
+linux/mm/Makefile
+linux/mm/page.s
+linux/mm/memory.c
+linux/tools/
+linux/tools/build.c
+linux/include/
+linux/include/sys/
+linux/include/sys/stat.h
+linux/include/sys/types.h
+linux/include/sys/times.h
+linux/include/sys/utsname.h
+linux/include/sys/wait.h
+linux/include/unistd.h
+linux/include/time.h
+linux/include/termios.h
+linux/include/stddef.h
+linux/include/stdarg.h
+linux/include/fcntl.h
+linux/include/utime.h
+linux/include/string.h
+linux/include/errno.h
+linux/include/signal.h
+linux/include/const.h
+linux/include/a.out.h
+linux/include/ctype.h
+linux/include/linux/
+linux/include/linux/hdreg.h
+linux/include/linux/kernel.h
+linux/include/linux/sched.h
+linux/include/linux/sys.h
+linux/include/linux/tty.h
+linux/include/linux/fs.h
+linux/include/linux/mm.h
+linux/include/linux/head.h
+linux/include/linux/config.h
+linux/include/asm/
+linux/include/asm/io.h
+linux/include/asm/memory.h
+linux/include/asm/system.h
+linux/include/asm/segment.h
+[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/archiving/targz]1;..chiving/targz[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/archiving/targz[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls --color=tty]1;ls[0m[01;32mfile.tar.gz[0m  [01;34mlinux[0m  typescript
+[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/archiving/targz]1;..chiving/targz[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/archiving/targz[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004hrrm -f r linux[1m/[0m[0m [?1l>[?2004l
+]2;rm -r linux]1;rm[1m[7m%[27m[1m[0m                                                                                                                                                                      ]2;user@farid:~/Dropbox/linux/commands/basics/archiving/targz]1;..chiving/targz[0m[27m[24m[J[38;2;58;134;255m[0m[38;2;58;134;255m [0m[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m [0m[48;2;255;71;156m[38;2;255;255;255muser[0m[38;2;255;71;156m[0m[38;2;36;36;36;49m[7m[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;36;36;36m[38;2;51;221;45m~/Dropbox/linux/commands/basics/archiving/targz[0m[48;2;36;36;36m[38;2;51;221;45m [0m[48;2;51;221;45m[38;2;36;36;36m[0m[48;2;51;221;45m[38;2;36;36;36m [0m[48;2;51;221;45m[38;2;36;36;36mﲍ[0m[48;2;51;221;45m[38;2;36;36;36m [0m[38;2;51;221;45m[0m[0m [K[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Script done on 2022-07-05 22:14:15+04:30 [COMMAND_EXIT_CODE="0"]
